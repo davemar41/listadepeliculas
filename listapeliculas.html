@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        
+    </head>
+    <body>
+         
+        
+        <div id="app" >
+            
+                
+                
+            
+            
+            <input type="text" v-model="valor" placeholder="Buscar" @input="busqueda(valor)"/>
+            <h3>aqui tenemos el resultado de la busqueda</h3>
+            <ul >
+                <li v-for="(peli) in arrayvacio" >{{ peli }}</li>
+            </ul>
+            
+            
+                
+           
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="j1.js"></script>
+        
+    </body>
+</html>
